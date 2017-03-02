@@ -15,9 +15,9 @@ function mergeSort(input){
 function merge(left, right){
   let arr = [];
   while(left.length > 0 && right.length > 0){
-    console.log('left',left);
-    console.log('right',right);
-    console.log('arr',arr);
+    // console.log('left',left);
+    // console.log('right',right);
+    // console.log('arr',arr);
     if(left[0] < right[0]){
       arr.push(left.shift());
     }else{
@@ -29,6 +29,6 @@ function merge(left, right){
   }else{
     arr = arr.concat(left);
   }
-  console.log('return arr', arr);
+  // console.log('return arr', arr);
   return arr;
 }

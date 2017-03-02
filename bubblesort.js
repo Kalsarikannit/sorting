@@ -37,7 +37,7 @@ function compareTo(p1, p2){
 }
 
 
-var a = 'a'
-var b = 'b'
+// var a = 'a'
+// var b = 'b'
 
-console.log(a-b);
+// console.log(a-b);
